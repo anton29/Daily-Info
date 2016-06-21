@@ -1,0 +1,45 @@
+body{
+  background-color:black;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+
+#clockbox{
+  color: white;
+  text-align: center
+}
+
+#MoonPhase{
+  color: white;
+  text-align: center
+}
+
+#weather {
+  width: 425px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+#weather h2 {
+  margin: 0 0 8px;
+  color: #fff;
+  font-size: 150px;
+  text-align: center;
+}
+
+#weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+#weather li {
+  color: white;
+  list-style-type: none;
+}
+
+#weather .currently {
+  margin: 0 20px;
+}
